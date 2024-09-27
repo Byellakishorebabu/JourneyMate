@@ -1,0 +1,119 @@
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.headcolor {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #cccccca9;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    outline: none;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.bordered {
+    margin: 9px;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+
+.bordered2 {
+    margin: 20px;
+    border: 2px solid rgb(97, 97, 103);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+.calen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 33px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.calen .spacing {
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    /* width: 50px;
+    height: 30px; */
+}
+
+.calenderimage {
+    width: 30px;
+    height: 30px;
+}
+
+.Indigo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bordered3 {
+    margin: 20px;
+    border: 2px solid rgb(97, 97, 103);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.lastbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footersection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnbg {
+    background-color: transparent;
+    border: none;
+}
+
+.btnbg:hover {
+    background-color: lightblue;
+    border: 2px solid rosybrown;
+}
